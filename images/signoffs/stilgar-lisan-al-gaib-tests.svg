@@ -7,7 +7,7 @@
       <stop offset="100%" stop-color="#000000" stop-opacity="0.88"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="228" width="960" height="172" fill="url(#scrim)"/>
-  <text x="480" y="318" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="9" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">The Lisan al Gaib would</text>
-  <text x="480" y="372" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="9" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">never ship without tests.</text>
+  <rect x="0" y="232" width="960" height="168" fill="url(#scrim)"/>
+  <text x="480" y="320" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="44" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="8" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">The Lisan al Gaib would</text>
+  <text x="480" y="372" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="44" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="8" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">never ship without tests.</text>
 </svg>

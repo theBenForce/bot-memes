@@ -7,7 +7,7 @@
       <stop offset="100%" stop-color="#000000" stop-opacity="0.88"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="236" width="960" height="172" fill="url(#scrim)"/>
-  <text x="480" y="326" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="9" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">May the Bot Force</text>
-  <text x="480" y="380" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="9" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">be with you...</text>
+  <rect x="0" y="238" width="960" height="170" fill="url(#scrim)"/>
+  <text x="480" y="327" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="45" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="9" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">May the Bot Force</text>
+  <text x="480" y="380" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="45" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="9" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">be with you...</text>
 </svg>

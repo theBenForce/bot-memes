@@ -7,7 +7,7 @@
       <stop offset="100%" stop-color="#000000" stop-opacity="0.88"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="346" width="960" height="194" fill="url(#scrim)"/>
-  <text x="480" y="447" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="55" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">I left a change request</text>
-  <text x="480" y="512" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="55" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">you couldn&#x27;t refuse.</text>
+  <rect x="0" y="336" width="960" height="204" fill="url(#scrim)"/>
+  <text x="480" y="442" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="59" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="11" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">I left a change request</text>
+  <text x="480" y="512" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="59" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="11" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">you couldn&#x27;t refuse.</text>
 </svg>

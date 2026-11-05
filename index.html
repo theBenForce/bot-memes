@@ -326,17 +326,15 @@
     function wrapBalanced(text, maxChars = 26) {
       text = text.trim().replace(/\s+/g, ' ');
       if (!text) return [];
-      if (text.length <= maxChars) return [text];
       const words = text.split(' ');
-      let best = null, bestDiff = 1e9;
+      if (text.length <= maxChars || words.length < 2) return [text];
+      let best = [words[0], words.slice(1).join(' ')], bestDiff = 1e9;
       for (let i = 1; i < words.length; i++) {
         const left = words.slice(0, i).join(' '), right = words.slice(i).join(' ');
-        if (left.length <= maxChars + 4 && right.length <= maxChars + 4) {
-          const d = Math.abs(left.length - right.length);
-          if (d < bestDiff) { bestDiff = d; best = [left, right]; }
-        }
+        const d = Math.abs(left.length - right.length);
+        if (d < bestDiff) { bestDiff = d; best = [left, right]; }
       }
-      return best || [text];
+      return best;
     }
     function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
     function renderDynamic(bg, text) {
@@ -344,9 +342,9 @@
       const imgUrl = `images/backgrounds/${encodeURIComponent(bg)}.jpg`;
       const lines = wrapBalanced(text, 26);
       const maxLen = Math.max(1, ...lines.map(l => l.length));
-      const boxW = Math.round(960 * 0.86), boxH = Math.round(408 * 0.24), boxY = 408 - 22 - boxH;
-      const fontSize = Math.round(Math.max(46, Math.min(62, boxW / (maxLen * 0.55), boxH / (lines.length * 1.18))));
-      const lineH = Math.round(fontSize * 1.18), strokeW = Math.max(7, Math.round(fontSize * 0.19));
+      const boxW = Math.round(960 * 0.86), boxH = Math.round(408 * 0.26), boxY = 408 - 22 - boxH;
+      const fontSize = Math.round(Math.max(24, Math.min(62, boxW / (maxLen * 0.55), boxH / (lines.length * 1.18))));
+      const lineH = Math.round(fontSize * 1.18), strokeW = Math.max(6, Math.round(fontSize * 0.19));
       const totalH = lineH * lines.length;
       const baseBottom = boxY + boxH - Math.max(6, Math.floor((boxH - totalH) / 3));
       const startY = baseBottom - (lines.length - 1) * lineH;

@@ -323,20 +323,45 @@
       </article>
   </main>
   <script>
+    function wrapBalanced(text, maxChars = 26) {
+      text = text.trim().replace(/\s+/g, ' ');
+      if (!text) return [];
+      if (text.length <= maxChars) return [text];
+      const words = text.split(' ');
+      let best = null, bestDiff = 1e9;
+      for (let i = 1; i < words.length; i++) {
+        const left = words.slice(0, i).join(' '), right = words.slice(i).join(' ');
+        if (left.length <= maxChars + 4 && right.length <= maxChars + 4) {
+          const d = Math.abs(left.length - right.length);
+          if (d < bestDiff) { bestDiff = d; best = [left, right]; }
+        }
+      }
+      return best || [text];
+    }
+    function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
     function renderDynamic(bg, text) {
       const container = document.getElementById('dynamic-preview');
       const imgUrl = `images/backgrounds/${encodeURIComponent(bg)}.jpg`;
+      const lines = wrapBalanced(text, 26);
+      const maxLen = Math.max(1, ...lines.map(l => l.length));
+      const boxW = Math.round(960 * 0.86), boxH = Math.round(408 * 0.24), boxY = 408 - 22 - boxH;
+      const fontSize = Math.round(Math.max(46, Math.min(62, boxW / (maxLen * 0.55), boxH / (lines.length * 1.18))));
+      const lineH = Math.round(fontSize * 1.18), strokeW = Math.max(7, Math.round(fontSize * 0.19));
+      const totalH = lineH * lines.length;
+      const baseBottom = boxY + boxH - Math.max(6, Math.floor((boxH - totalH) / 3));
+      const startY = baseBottom - (lines.length - 1) * lineH;
+      const textsSvg = lines.map((l, idx) => `<text x="480" y="${startY + idx * lineH}" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="${fontSize}" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="${strokeW}" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">${esc(l)}</text>`).join('\n        ');
       const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 408" width="960" height="408">
         <defs>
           <linearGradient id="dyn-scrim" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="#000" stop-opacity="0"/>
-            <stop offset="45%" stop-color="#000" stop-opacity="0.55"/>
-            <stop offset="100%" stop-color="#000" stop-opacity="0.85"/>
+            <stop offset="40%" stop-color="#000" stop-opacity="0.6"/>
+            <stop offset="100%" stop-color="#000" stop-opacity="0.88"/>
           </linearGradient>
         </defs>
         <image href="${imgUrl}" x="0" y="0" width="960" height="408" preserveAspectRatio="xMidYMid slice"/>
-        <rect x="0" y="288" width="960" height="120" fill="url(#dyn-scrim)"/>
-        <text x="480" y="380" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#fff" stroke="#000" stroke-width="6" stroke-linejoin="round" paint-order="stroke fill">${text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</text>
+        <rect x="0" y="250" width="960" height="158" fill="url(#dyn-scrim)"/>
+        ${textsSvg}
       </svg>`;
       container.innerHTML = svg;
     }

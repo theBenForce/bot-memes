@@ -3,11 +3,11 @@
   <defs>
     <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="45%" stop-color="#000000" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#000000" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.88"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="388" width="960" height="132" fill="url(#scrim)"/>
-  <text x="480" y="456" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.4">That&#x27;s no moon... that&#x27;s a giant pull</text>
-  <text x="480" y="494" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.4">request.</text>
+  <rect x="0" y="330" width="960" height="190" fill="url(#scrim)"/>
+  <text x="480" y="429" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="53" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">That&#x27;s no moon... that&#x27;s</text>
+  <text x="480" y="492" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="53" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">a giant pull request.</text>
 </svg>

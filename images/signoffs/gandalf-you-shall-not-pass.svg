@@ -3,10 +3,10 @@
   <defs>
     <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="45%" stop-color="#000000" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#000000" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.88"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="280" width="960" height="120" fill="url(#scrim)"/>
-  <text x="480" y="374" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.4">You shall not pass!</text>
+  <rect x="0" y="260" width="960" height="140" fill="url(#scrim)"/>
+  <text x="480" y="371" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="62" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="12" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">You shall not pass!</text>
 </svg>

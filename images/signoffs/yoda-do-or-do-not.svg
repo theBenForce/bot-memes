@@ -3,10 +3,11 @@
   <defs>
     <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="45%" stop-color="#000000" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#000000" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.88"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="288" width="960" height="120" fill="url(#scrim)"/>
-  <text x="480" y="382" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.4">Do or do not, there is no try.</text>
+  <rect x="0" y="236" width="960" height="172" fill="url(#scrim)"/>
+  <text x="480" y="326" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="9" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">Do or do not,</text>
+  <text x="480" y="380" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="9" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">there is no try.</text>
 </svg>

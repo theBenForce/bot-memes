@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Ben 10 Bot Force — SVG Sign-Off Cards</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: #0d1117; color: #e6edf3; margin: 0; padding: 2rem; }
+    header { max-width: 1200px; margin: 0 auto 2rem; }
+    h1 { margin: 0 0 0.5rem; font-size: 1.8rem; }
+    p.sub { color: #8b949e; margin: 0 0 1.5rem; }
+    .builder { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 1.25rem; margin-bottom: 2rem; max-width: 1200px; margin-left: auto; margin-right: auto; }
+    .builder h2 { margin: 0 0 0.75rem; font-size: 1.1rem; }
+    .controls { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
+    input, select, button { background: #0d1117; color: #e6edf3; border: 1px solid #30363d; border-radius: 6px; padding: 0.5rem 0.75rem; font-size: 0.95rem; }
+    input[type="text"] { flex: 1; min-width: 260px; }
+    button { background: #238636; border-color: #2ea043; cursor: pointer; font-weight: 600; }
+    #dynamic-preview { margin-top: 1rem; max-width: 640px; }
+    #dynamic-preview svg, #dynamic-preview img { width: 100%; height: auto; border-radius: 8px; border: 1px solid #30363d; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 1.25rem; max-width: 1200px; margin: 0 auto; }
+    .card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 0.85rem; display: flex; flex-direction: column; gap: 0.6rem; }
+    .card img { width: 100%; height: auto; border-radius: 6px; display: block; }
+    .meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; color: #8b949e; }
+    .badge { background: #1f6feb33; color: #58a6ff; border: 1px solid #1f6feb66; border-radius: 999px; padding: 0.15rem 0.55rem; font-weight: 600; }
+    .quote { margin: 0; font-style: italic; color: #c9d1d9; font-size: 0.92rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ben 10 Bot Force — SVG Sign-Off Gallery</h1>
+    <p class="sub">Pre-generated static SVG cards &amp; query-parameter dynamic SVG generator (<code>?bg=&lt;slug&gt;&amp;text=&lt;caption&gt;</code>).</p>
+  </header>
+  <section class="builder">
+    <h2>Dynamic Sign-Off SVG Previewer</h2>
+    <div class="controls">
+      <input id="bg-input" type="text" placeholder="Background slug (e.g. bilbo-adventure)" value="bilbo-adventure"/>
+      <input id="text-input" type="text" placeholder="Custom caption text" value="12 branches in this stack? I'm going on an adventure!"/>
+      <button id="render-btn" type="button">Render SVG</button>
+    </div>
+    <div id="dynamic-preview"></div>
+  </section>
+  <main class="grid">
+      <article class="card" data-when="approve">
+        <div class="meta"><span class="badge">approve</span> <code>han-may-the-force.svg</code></div>
+        <img src="images/signoffs/han-may-the-force.svg" alt="May the Bot Force be with you..." loading="lazy"/>
+        <p class="quote">May the Bot Force be with you...</p>
+      </article>
+      <article class="card" data-when="approve">
+        <div class="meta"><span class="badge">approve</span> <code>vader-tie-cockpit.svg</code></div>
+        <img src="images/signoffs/vader-tie-cockpit.svg" alt="The Bot Force is strong with this one..." loading="lazy"/>
+        <p class="quote">The Bot Force is strong with this one...</p>
+      </article>
+      <article class="card" data-when="approve_after_changes">
+        <div class="meta"><span class="badge">approve_after_changes</span> <code>thorin-hugging-bilbo.svg</code></div>
+        <img src="images/signoffs/thorin-hugging-bilbo.svg" alt="I have never been so wrong in all my life." loading="lazy"/>
+        <p class="quote">I have never been so wrong in all my life.</p>
+      </article>
+      <article class="card" data-when="approve">
+        <div class="meta"><span class="badge">approve</span> <code>aragorn-you-bow-to-no-one.svg</code></div>
+        <img src="images/signoffs/aragorn-you-bow-to-no-one.svg" alt="You bow to no one." loading="lazy"/>
+        <p class="quote">You bow to no one.</p>
+      </article>
+      <article class="card" data-when="approve">
+        <div class="meta"><span class="badge">approve</span> <code>joker-slow-clap.svg</code></div>
+        <img src="images/signoffs/joker-slow-clap.svg" alt="Now that&#x27;s a magic trick." loading="lazy"/>
+        <p class="quote">Now that&#x27;s a magic trick.</p>
+      </article>
+      <article class="card" data-when="approve">
+        <div class="meta"><span class="badge">approve</span> <code>inception-spinning-top.svg</code></div>
+        <img src="images/signoffs/inception-spinning-top.svg" alt="Still spinning. Approved." loading="lazy"/>
+        <p class="quote">Still spinning. Approved.</p>
+      </article>
+      <article class="card" data-when="approve">
+        <div class="meta"><span class="badge">approve</span> <code>mr-dna-supercomputers.svg</code></div>
+        <img src="images/signoffs/mr-dna-supercomputers.svg" alt="Thinking machine, super computers." loading="lazy"/>
+        <p class="quote">Thinking machine, super computers.</p>
+      </article>
+      <article class="card" data-when="approve">
+        <div class="meta"><span class="badge">approve</span> <code>lex-unix-system.svg</code></div>
+        <img src="images/signoffs/lex-unix-system.svg" alt="It&#x27;s a Unix system, I know this." loading="lazy"/>
+        <p class="quote">It&#x27;s a Unix system, I know this.</p>
+      </article>
+      <article class="card" data-when="approve">
+        <div class="meta"><span class="badge">approve</span> <code>titanic-ship-it.svg</code></div>
+        <img src="images/signoffs/titanic-ship-it.svg" alt="Ship It." loading="lazy"/>
+        <p class="quote">Ship It.</p>
+      </article>
+      <article class="card" data-when="approve_high">
+        <div class="meta"><span class="badge">approve_high</span> <code>ray-arnold-hold-on-to-your-butts.svg</code></div>
+        <img src="images/signoffs/ray-arnold-hold-on-to-your-butts.svg" alt="Hold on to your butts." loading="lazy"/>
+        <p class="quote">Hold on to your butts.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>obi-wan-droids.svg</code></div>
+        <img src="images/signoffs/obi-wan-droids.svg" alt="These are not the commits you&#x27;re looking for." loading="lazy"/>
+        <p class="quote">These are not the commits you&#x27;re looking for.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>hal-9000.svg</code></div>
+        <img src="images/signoffs/hal-9000.svg" alt="I&#x27;m afraid I can&#x27;t let you merge that." loading="lazy"/>
+        <p class="quote">I&#x27;m afraid I can&#x27;t let you merge that.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>luke-chewie-bad-feeling.svg</code></div>
+        <img src="images/signoffs/luke-chewie-bad-feeling.svg" alt="I have a bad feeling about this..." loading="lazy"/>
+        <p class="quote">I have a bad feeling about this...</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>qui-gon-obi-wan-bad-feeling.svg</code></div>
+        <img src="images/signoffs/qui-gon-obi-wan-bad-feeling.svg" alt="I have a bad feeling about this..." loading="lazy"/>
+        <p class="quote">I have a bad feeling about this...</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>yoda-do-or-do-not.svg</code></div>
+        <img src="images/signoffs/yoda-do-or-do-not.svg" alt="Do or do not, there is no try." loading="lazy"/>
+        <p class="quote">Do or do not, there is no try.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>gandalf-you-shall-not-pass.svg</code></div>
+        <img src="images/signoffs/gandalf-you-shall-not-pass.svg" alt="You shall not pass!" loading="lazy"/>
+        <p class="quote">You shall not pass!</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>nedry-magic-word-full.svg</code></div>
+        <img src="images/signoffs/nedry-magic-word-full.svg" alt="Ah ah ah, you didn&#x27;t say the magic word." loading="lazy"/>
+        <p class="quote">Ah ah ah, you didn&#x27;t say the magic word.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>nedry-magic-word-terminal.svg</code></div>
+        <img src="images/signoffs/nedry-magic-word-terminal.svg" alt="Ah ah ah, you didn&#x27;t say the magic word." loading="lazy"/>
+        <p class="quote">Ah ah ah, you didn&#x27;t say the magic word.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>malcolm-preoccupied.svg</code></div>
+        <img src="images/signoffs/malcolm-preoccupied.svg" alt="Your scientists were so preoccupied with whether or not they could, they never stopped to think if they should." loading="lazy"/>
+        <p class="quote">Your scientists were so preoccupied with whether or not they could, they never stopped to think if they should.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>alfred-watch-the-world-burn.svg</code></div>
+        <img src="images/signoffs/alfred-watch-the-world-burn.svg" alt="Some men just want to watch the world burn." loading="lazy"/>
+        <p class="quote">Some men just want to watch the world burn.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>thomas-wayne-why-do-we-fall.svg</code></div>
+        <img src="images/signoffs/thomas-wayne-why-do-we-fall.svg" alt="Why do we fall? So we can learn to pick ourselves up." loading="lazy"/>
+        <p class="quote">Why do we fall? So we can learn to pick ourselves up.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>godfather-offer.svg</code></div>
+        <img src="images/signoffs/godfather-offer.svg" alt="I left a change request you couldn&#x27;t refuse." loading="lazy"/>
+        <p class="quote">I left a change request you couldn&#x27;t refuse.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>dune-pain-box.svg</code></div>
+        <img src="images/signoffs/dune-pain-box.svg" alt="What&#x27;s in the box? Change requests." loading="lazy"/>
+        <p class="quote">What&#x27;s in the box? Change requests.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>matrix-inevitability.svg</code></div>
+        <img src="images/signoffs/matrix-inevitability.svg" alt="That&#x27;s the sound of inevitability." loading="lazy"/>
+        <p class="quote">That&#x27;s the sound of inevitability.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>grant-not-endorse.svg</code></div>
+        <img src="images/signoffs/grant-not-endorse.svg" alt="After careful consideration, I&#x27;ve decided not to endorse your PR." loading="lazy"/>
+        <p class="quote">After careful consideration, I&#x27;ve decided not to endorse your PR.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>nedry-automation.svg</code></div>
+        <img src="images/signoffs/nedry-automation.svg" alt="You think this kind of automation is easy, or cheap?" loading="lazy"/>
+        <p class="quote">You think this kind of automation is easy, or cheap?</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>neo-no.svg</code></div>
+        <img src="images/signoffs/neo-no.svg" alt="No." loading="lazy"/>
+        <p class="quote">No.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>agent-smith-machines-job.svg</code></div>
+        <img src="images/signoffs/agent-smith-machines-job.svg" alt="Never send a human to do a machine&#x27;s job." loading="lazy"/>
+        <p class="quote">Never send a human to do a machine&#x27;s job.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>jaws-bigger-bot.svg</code></div>
+        <img src="images/signoffs/jaws-bigger-bot.svg" alt="You&#x27;re going to need a bigger bot." loading="lazy"/>
+        <p class="quote">You&#x27;re going to need a bigger bot.</p>
+      </article>
+      <article class="card" data-when="request_changes">
+        <div class="meta"><span class="badge">request_changes</span> <code>jerry-maguire-help-me.svg</code></div>
+        <img src="images/signoffs/jerry-maguire-help-me.svg" alt="Help me help you." loading="lazy"/>
+        <p class="quote">Help me help you.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>vader-lack-of-faith-tests.svg</code></div>
+        <img src="images/signoffs/vader-lack-of-faith-tests.svg" alt="I find your lack of tests disturbing." loading="lazy"/>
+        <p class="quote">I find your lack of tests disturbing.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>vader-lack-of-faith-metrics.svg</code></div>
+        <img src="images/signoffs/vader-lack-of-faith-metrics.svg" alt="I find your lack of metrics disturbing." loading="lazy"/>
+        <p class="quote">I find your lack of metrics disturbing.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>vader-lack-of-faith-logs.svg</code></div>
+        <img src="images/signoffs/vader-lack-of-faith-logs.svg" alt="I find your lack of logs disturbing." loading="lazy"/>
+        <p class="quote">I find your lack of logs disturbing.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>boromir-one-does-not-simply-tests.svg</code></div>
+        <img src="images/signoffs/boromir-one-does-not-simply-tests.svg" alt="One does not simply merge without tests." loading="lazy"/>
+        <p class="quote">One does not simply merge without tests.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>boromir-one-does-not-simply-metrics.svg</code></div>
+        <img src="images/signoffs/boromir-one-does-not-simply-metrics.svg" alt="One does not simply merge without metrics." loading="lazy"/>
+        <p class="quote">One does not simply merge without metrics.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>boromir-one-does-not-simply-logs.svg</code></div>
+        <img src="images/signoffs/boromir-one-does-not-simply-logs.svg" alt="One does not simply merge without logs." loading="lazy"/>
+        <p class="quote">One does not simply merge without logs.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>hammond-spared-no-expense-tests.svg</code></div>
+        <img src="images/signoffs/hammond-spared-no-expense-tests.svg" alt="Spared no expense... except on tests." loading="lazy"/>
+        <p class="quote">Spared no expense... except on tests.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>hammond-spared-no-expense-metrics.svg</code></div>
+        <img src="images/signoffs/hammond-spared-no-expense-metrics.svg" alt="Spared no expense... except on metrics." loading="lazy"/>
+        <p class="quote">Spared no expense... except on metrics.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>hammond-spared-no-expense-logs.svg</code></div>
+        <img src="images/signoffs/hammond-spared-no-expense-logs.svg" alt="Spared no expense... except on logs." loading="lazy"/>
+        <p class="quote">Spared no expense... except on logs.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>stilgar-lisan-al-gaib-tests.svg</code></div>
+        <img src="images/signoffs/stilgar-lisan-al-gaib-tests.svg" alt="The Lisan al Gaib would never ship without tests." loading="lazy"/>
+        <p class="quote">The Lisan al Gaib would never ship without tests.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>stilgar-lisan-al-gaib-metrics.svg</code></div>
+        <img src="images/signoffs/stilgar-lisan-al-gaib-metrics.svg" alt="The Lisan al Gaib would never ship without metrics." loading="lazy"/>
+        <p class="quote">The Lisan al Gaib would never ship without metrics.</p>
+      </article>
+      <article class="card" data-when="lacking">
+        <div class="meta"><span class="badge">lacking</span> <code>stilgar-lisan-al-gaib-logs.svg</code></div>
+        <img src="images/signoffs/stilgar-lisan-al-gaib-logs.svg" alt="The Lisan al Gaib would never ship without logs." loading="lazy"/>
+        <p class="quote">The Lisan al Gaib would never ship without logs.</p>
+      </article>
+      <article class="card" data-when="agree">
+        <div class="meta"><span class="badge">agree</span> <code>neo-i-know-code.svg</code></div>
+        <img src="images/signoffs/neo-i-know-code.svg" alt="I know code too." loading="lazy"/>
+        <p class="quote">I know code too.</p>
+      </article>
+      <article class="card" data-when="agree">
+        <div class="meta"><span class="badge">agree</span> <code>han-its-all-true.svg</code></div>
+        <img src="images/signoffs/han-its-all-true.svg" alt="It&#x27;s all true." loading="lazy"/>
+        <p class="quote">It&#x27;s all true.</p>
+      </article>
+      <article class="card" data-when="agree">
+        <div class="meta"><span class="badge">agree</span> <code>mace-windu-i-agree.svg</code></div>
+        <img src="images/signoffs/mace-windu-i-agree.svg" alt="I agree." loading="lazy"/>
+        <p class="quote">I agree.</p>
+      </article>
+      <article class="card" data-when="agree">
+        <div class="meta"><span class="badge">agree</span> <code>qui-gon-no-doubt.svg</code></div>
+        <img src="images/signoffs/qui-gon-no-doubt.svg" alt="I have no doubt of that." loading="lazy"/>
+        <p class="quote">I have no doubt of that.</p>
+      </article>
+      <article class="card" data-when="agree">
+        <div class="meta"><span class="badge">agree</span> <code>gimli-and-my-axe.svg</code></div>
+        <img src="images/signoffs/gimli-and-my-axe.svg" alt="You have my axe." loading="lazy"/>
+        <p class="quote">You have my axe.</p>
+      </article>
+      <article class="card" data-when="agree">
+        <div class="meta"><span class="badge">agree</span> <code>aragorn-you-have-my-sword.svg</code></div>
+        <img src="images/signoffs/aragorn-you-have-my-sword.svg" alt="You have my sword." loading="lazy"/>
+        <p class="quote">You have my sword.</p>
+      </article>
+      <article class="card" data-when="agree">
+        <div class="meta"><span class="badge">agree</span> <code>stilgar-lisan-al-gaib.svg</code></div>
+        <img src="images/signoffs/stilgar-lisan-al-gaib.svg" alt="As it is written." loading="lazy"/>
+        <p class="quote">As it is written.</p>
+      </article>
+      <article class="card" data-when="agree">
+        <div class="meta"><span class="badge">agree</span> <code>agent-smith-clones.svg</code></div>
+        <img src="images/signoffs/agent-smith-clones.svg" alt="Me too." loading="lazy"/>
+        <p class="quote">Me too.</p>
+      </article>
+      <article class="card" data-when="agree_bot">
+        <div class="meta"><span class="badge">agree_bot</span> <code>muldoon-clever-girl.svg</code></div>
+        <img src="images/signoffs/muldoon-clever-girl.svg" alt="Clever bot." loading="lazy"/>
+        <p class="quote">Clever bot.</p>
+      </article>
+      <article class="card" data-when="agree_bot">
+        <div class="meta"><span class="badge">agree_bot</span> <code>fremen-charge.svg</code></div>
+        <img src="images/signoffs/fremen-charge.svg" alt="Long live the fighters!" loading="lazy"/>
+        <p class="quote">Long live the fighters!</p>
+      </article>
+      <article class="card" data-when="agree_bot">
+        <div class="meta"><span class="badge">agree_bot</span> <code>michael-scott-best-bot.svg</code></div>
+        <img src="images/signoffs/michael-scott-best-bot.svg" alt="World&#x27;s Best Bot." loading="lazy"/>
+        <p class="quote">World&#x27;s Best Bot.</p>
+      </article>
+      <article class="card" data-when="big_pr">
+        <div class="meta"><span class="badge">big_pr</span> <code>grant-sunglasses.svg</code></div>
+        <img src="images/signoffs/grant-sunglasses.svg" alt="That&#x27;s no moon... that&#x27;s a giant pull request." loading="lazy"/>
+        <p class="quote">That&#x27;s no moon... that&#x27;s a giant pull request.</p>
+      </article>
+      <article class="card" data-when="stack_bottom">
+        <div class="meta"><span class="badge">stack_bottom</span> <code>bilbo-adventure.svg</code></div>
+        <img src="images/signoffs/bilbo-adventure.svg" alt="I&#x27;m going on an adventure!" loading="lazy"/>
+        <p class="quote">I&#x27;m going on an adventure!</p>
+      </article>
+      <article class="card" data-when="human_commit">
+        <div class="meta"><span class="badge">human_commit</span> <code>malcolm-life-finds-a-way.svg</code></div>
+        <img src="images/signoffs/malcolm-life-finds-a-way.svg" alt="Life, uh, finds a way." loading="lazy"/>
+        <p class="quote">Life, uh, finds a way.</p>
+      </article>
+  </main>
+  <script>
+    function renderDynamic(bg, text) {
+      const container = document.getElementById('dynamic-preview');
+      const imgUrl = `images/backgrounds/${encodeURIComponent(bg)}.jpg`;
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 408" width="960" height="408">
+        <defs>
+          <linearGradient id="dyn-scrim" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+            <stop offset="45%" stop-color="#000" stop-opacity="0.55"/>
+            <stop offset="100%" stop-color="#000" stop-opacity="0.85"/>
+          </linearGradient>
+        </defs>
+        <image href="${imgUrl}" x="0" y="0" width="960" height="408" preserveAspectRatio="xMidYMid slice"/>
+        <rect x="0" y="288" width="960" height="120" fill="url(#dyn-scrim)"/>
+        <text x="480" y="380" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#fff" stroke="#000" stroke-width="6" stroke-linejoin="round" paint-order="stroke fill">${text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</text>
+      </svg>`;
+      container.innerHTML = svg;
+    }
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('bg')) document.getElementById('bg-input').value = params.get('bg');
+    if (params.get('text')) document.getElementById('text-input').value = params.get('text');
+    document.getElementById('render-btn').addEventListener('click', () => {
+      renderDynamic(document.getElementById('bg-input').value.trim(), document.getElementById('text-input').value.trim());
+    });
+    renderDynamic(document.getElementById('bg-input').value.trim(), document.getElementById('text-input').value.trim());
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 402" width="960" height="402" role="img" aria-label="I have never been so wrong in all my life.">
+  <image href="https://raw.githubusercontent.com/theBenForce/bot-memes/feat/initial-memes/images/backgrounds/thorin-hugging-bilbo.jpg" x="0" y="0" width="960" height="402" preserveAspectRatio="xMidYMid slice"/>
+  <defs>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#000000" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="282" width="960" height="120" fill="url(#scrim)"/>
+  <text x="480" y="376" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.4">I have never been so wrong in all my life.</text>
+</svg>

@@ -1,0 +1,786 @@
+{
+  "version": 1,
+  "pages_base_url": "https://thebenforce.github.io/bot-memes",
+  "gifs": [
+    {
+      "id": "han-may-the-force",
+      "description": "Han Solo: \"May the Force be with you.\""
+    },
+    {
+      "id": "vader-tie-cockpit",
+      "description": "Vader in the TIE cockpit: \"The Force is strong with this one.\""
+    },
+    {
+      "id": "obi-wan-droids",
+      "description": "Obi-Wan's hand wave: \"These aren't the droids you're looking for.\""
+    },
+    {
+      "id": "hal-9000",
+      "description": "HAL 9000's red eye"
+    },
+    {
+      "id": "luke-chewie-bad-feeling",
+      "description": "Luke and Chewie: \"I have a very bad feeling about this.\""
+    },
+    {
+      "id": "qui-gon-obi-wan-bad-feeling",
+      "description": "Qui-Gon and Obi-Wan: \"I have a bad feeling about this.\""
+    },
+    {
+      "id": "yoda-do-or-do-not",
+      "description": "Yoda: \"Do or do not, there is no try.\""
+    },
+    {
+      "id": "vader-lack-of-faith",
+      "description": "Vader choking Motti: \"I find your lack of faith disturbing.\""
+    },
+    {
+      "id": "neo-i-know-code",
+      "description": "Neo: \"I know code too.\""
+    },
+    {
+      "id": "han-its-all-true",
+      "description": "Han Solo: \"It's all true.\""
+    },
+    {
+      "id": "mace-windu-i-agree",
+      "description": "Mace Windu: \"I agree.\""
+    },
+    {
+      "id": "qui-gon-no-doubt",
+      "description": "Qui-Gon: \"I have no doubt of that.\""
+    },
+    {
+      "id": "bilbo-adventure",
+      "description": "Bilbo running from the Shire: \"I'm going on an adventure!\""
+    },
+    {
+      "id": "thorin-hugging-bilbo",
+      "description": "Thorin hugging Bilbo on the Carrock"
+    },
+    {
+      "id": "aragorn-you-bow-to-no-one",
+      "description": "Aragorn crowned: \"You bow to no one.\""
+    },
+    {
+      "id": "grant-sunglasses",
+      "description": "Grant pulling off his sunglasses at the brachiosaurus"
+    },
+    {
+      "id": "malcolm-life-finds-a-way",
+      "description": "Malcolm: \"Life, uh, finds a way.\""
+    },
+    {
+      "id": "muldoon-clever-girl",
+      "description": "Muldoon: \"Clever bot.\""
+    },
+    {
+      "id": "fremen-charge",
+      "description": "The Fremen charge in Dune: Part Two"
+    },
+    {
+      "id": "joker-slow-clap",
+      "description": "The Joker slow-clapping in his cell"
+    },
+    {
+      "id": "inception-spinning-top",
+      "description": "Inception's spinning top"
+    },
+    {
+      "id": "ray-arnold-hold-on-to-your-butts",
+      "description": "Ray Arnold: \"Hold on to your butts.\""
+    },
+    {
+      "id": "gandalf-you-shall-not-pass",
+      "description": "Gandalf on the bridge of Khazad-dum: \"You shall not merge!\""
+    },
+    {
+      "id": "nedry-magic-word-full",
+      "description": "Nedry's lockout: \"Ah ah ah! You didn't say the magic word!\""
+    },
+    {
+      "id": "nedry-magic-word-terminal",
+      "description": "Nedry's lockout terminal screen: \"Ah ah ah! You didn't say the magic word!\""
+    },
+    {
+      "id": "malcolm-preoccupied",
+      "description": "Malcolm: \"Your bots were so preoccupied with whether or not they could...\""
+    },
+    {
+      "id": "alfred-watch-the-world-burn",
+      "description": "Alfred: \"Some men just want to watch the world burn.\""
+    },
+    {
+      "id": "thomas-wayne-why-do-we-fall",
+      "description": "Thomas Wayne: \"Why do we fall?\""
+    },
+    {
+      "id": "boromir-one-does-not-simply",
+      "description": "Boromir's one-does-not-simply gesture at the Council of Elrond"
+    },
+    {
+      "id": "hammond-spared-no-expense",
+      "description": "Hammond stepping out of the red jeep"
+    },
+    {
+      "id": "stilgar-lisan-al-gaib",
+      "description": "Stilgar: \"Lisan al Gaib!\""
+    },
+    {
+      "id": "gimli-and-my-axe",
+      "description": "Gimli: \"You have my axe.\""
+    },
+    {
+      "id": "aragorn-you-have-my-sword",
+      "description": "Aragorn to Frodo: \"You have my sword.\""
+    },
+    {
+      "id": "godfather-offer",
+      "description": "Don Vito Corleone: \"I left a change request you couldn't refuse.\""
+    },
+    {
+      "id": "dune-pain-box",
+      "description": "The Gom Jabbar box: \"What's in the box? Change requests.\""
+    },
+    {
+      "id": "matrix-inevitability",
+      "description": "Agent Smith on the subway tracks: \"That's the sound of inevitability.\""
+    },
+    {
+      "id": "agent-smith-clones",
+      "description": "Agent Smith looking at himself in The Matrix Revolutions"
+    },
+    {
+      "id": "grant-not-endorse",
+      "description": "Alan Grant: \"After careful consideration, I've decided not to endorse your PR.\""
+    },
+    {
+      "id": "nedry-automation",
+      "description": "Dennis Nedry: \"You think this kind of automation is easy, or cheap?\""
+    },
+    {
+      "id": "mr-dna-supercomputers",
+      "description": "Mr. DNA: \"Thinking machine, super computers\""
+    },
+    {
+      "id": "lex-unix-system",
+      "description": "Lex at the Silicon Graphics workstation: \"It's a Unix system, I know this\""
+    },
+    {
+      "id": "neo-no",
+      "description": "Neo stopping bullets in the hallway: \"No\""
+    },
+    {
+      "id": "agent-smith-machines-job",
+      "description": "Agent Smith: \"Never send a human to do a machine's job\""
+    },
+    {
+      "id": "michael-scott-best-bot",
+      "description": "Michael Scott holding his \"World's Best Bot\" mug"
+    },
+    {
+      "id": "jaws-bigger-bot",
+      "description": "Chief Brody: \"You're going to need a bigger bot\""
+    },
+    {
+      "id": "titanic-ship-it",
+      "description": "Jack and Rose on the bow of the Titanic: \"Ship It\""
+    },
+    {
+      "id": "jerry-maguire-help-me",
+      "description": "Jerry Maguire: \"Help me help you\""
+    },
+    {
+      "id": "jules-big-brain",
+      "description": "Jules Winnfield: \"Look at the big brain on {GITHUB_USERNAME}!\""
+    },
+    {
+      "id": "obi-wan-no-moon",
+      "description": "Obi-Wan and Han in the cockpit: \"That's no moon.\""
+    }
+  ],
+  "signoffs": [
+    {
+      "when": "approve",
+      "text": "May the Bot Force be with you...",
+      "gifs": [
+        "han-may-the-force"
+      ]
+    },
+    {
+      "when": "approve",
+      "text": "The Bot Force is strong with this one...",
+      "gifs": [
+        "vader-tie-cockpit"
+      ]
+    },
+    {
+      "when": "reversal",
+      "text": "I have never been so wrong in all my life.",
+      "gifs": [
+        "thorin-hugging-bilbo"
+      ]
+    },
+    {
+      "when": "approve",
+      "text": "You bow to no one.",
+      "gifs": [
+        "aragorn-you-bow-to-no-one"
+      ]
+    },
+    {
+      "when": "approve",
+      "text": "Now that's a magic trick.",
+      "gifs": [
+        "joker-slow-clap"
+      ]
+    },
+    {
+      "when": "approve",
+      "text": "Still spinning. Approved.",
+      "gifs": [
+        "inception-spinning-top"
+      ]
+    },
+    {
+      "when": "approve",
+      "text": "Thinking machine, super computers.",
+      "gifs": [
+        "mr-dna-supercomputers"
+      ]
+    },
+    {
+      "when": "approve",
+      "text": "It's a Unix system, I know this.",
+      "gifs": [
+        "lex-unix-system"
+      ]
+    },
+    {
+      "when": "approve",
+      "text": "Ship It.",
+      "gifs": [
+        "titanic-ship-it"
+      ]
+    },
+    {
+      "when": "approve",
+      "text": "Look at the big brain on {GITHUB_USERNAME}!",
+      "gifs": [
+        "jules-big-brain"
+      ]
+    },
+    {
+      "when": "approve_high",
+      "text": "Hold on to your butts.",
+      "gifs": [
+        "ray-arnold-hold-on-to-your-butts"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "These are not the commits you're looking for.",
+      "gifs": [
+        "obi-wan-droids"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "I'm afraid I can't let you merge that.",
+      "gifs": [
+        "hal-9000"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "I have a bad feeling about this...",
+      "gifs": [
+        "luke-chewie-bad-feeling",
+        "qui-gon-obi-wan-bad-feeling"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "Do or do not, there is no try.",
+      "gifs": [
+        "yoda-do-or-do-not"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "You shall not merge!",
+      "gifs": [
+        "gandalf-you-shall-not-pass"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "Ah ah ah, you didn't say the magic word.",
+      "gifs": [
+        "nedry-magic-word-full",
+        "nedry-magic-word-terminal"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "Your bots were so preoccupied with whether or not they could, they never stopped to think if they should.",
+      "gifs": [
+        "malcolm-preoccupied"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "Some men just want to watch the world burn.",
+      "gifs": [
+        "alfred-watch-the-world-burn"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "Why do we fall? So we can learn to pick ourselves up.",
+      "gifs": [
+        "thomas-wayne-why-do-we-fall"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "I left a change request you couldn't refuse.",
+      "gifs": [
+        "godfather-offer"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "What's in the box? Change requests.",
+      "gifs": [
+        "dune-pain-box"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "That's the sound of inevitability.",
+      "gifs": [
+        "matrix-inevitability"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "After careful consideration, I've decided not to endorse your PR.",
+      "gifs": [
+        "grant-not-endorse"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "You think this kind of automation is easy, or cheap?",
+      "gifs": [
+        "nedry-automation"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "No.",
+      "gifs": [
+        "neo-no"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "Never send a human to do a machine's job.",
+      "gifs": [
+        "agent-smith-machines-job"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "You're going to need a bigger bot.",
+      "gifs": [
+        "jaws-bigger-bot"
+      ]
+    },
+    {
+      "when": "request_changes",
+      "text": "Help me help you.",
+      "gifs": [
+        "jerry-maguire-help-me"
+      ]
+    },
+    {
+      "when": "lacking",
+      "text": "I find your lack of {} disturbing.",
+      "gifs": [
+        "vader-lack-of-faith"
+      ]
+    },
+    {
+      "when": "lacking",
+      "text": "One does not simply merge without {}.",
+      "gifs": [
+        "boromir-one-does-not-simply"
+      ]
+    },
+    {
+      "when": "lacking",
+      "text": "Spared no expense... except on {}.",
+      "gifs": [
+        "hammond-spared-no-expense"
+      ]
+    },
+    {
+      "when": "lacking",
+      "text": "The Lisan al Gaib would never ship without {}.",
+      "gifs": [
+        "stilgar-lisan-al-gaib"
+      ]
+    },
+    {
+      "when": "agree",
+      "text": "I know code too.",
+      "gifs": [
+        "neo-i-know-code"
+      ]
+    },
+    {
+      "when": "agree",
+      "text": "It's all true.",
+      "gifs": [
+        "han-its-all-true"
+      ]
+    },
+    {
+      "when": "agree",
+      "text": "I agree.",
+      "gifs": [
+        "mace-windu-i-agree"
+      ]
+    },
+    {
+      "when": "agree",
+      "text": "I have no doubt of that.",
+      "gifs": [
+        "qui-gon-no-doubt"
+      ]
+    },
+    {
+      "when": "agree",
+      "text": "You have my axe.",
+      "gifs": [
+        "gimli-and-my-axe"
+      ]
+    },
+    {
+      "when": "agree",
+      "text": "You have my sword.",
+      "gifs": [
+        "aragorn-you-have-my-sword"
+      ]
+    },
+    {
+      "when": "agree",
+      "text": "As it is written.",
+      "gifs": [
+        "stilgar-lisan-al-gaib"
+      ]
+    },
+    {
+      "when": "agree",
+      "text": "Me too.",
+      "gifs": [
+        "agent-smith-clones"
+      ]
+    },
+    {
+      "when": "agree_bot",
+      "text": "Clever bot.",
+      "gifs": [
+        "muldoon-clever-girl"
+      ]
+    },
+    {
+      "when": "agree_bot",
+      "text": "Long live the fighters!",
+      "gifs": [
+        "fremen-charge"
+      ]
+    },
+    {
+      "when": "agree_bot",
+      "text": "World's Best Bot.",
+      "gifs": [
+        "michael-scott-best-bot"
+      ]
+    },
+    {
+      "when": "big_pr",
+      "text": "That is one big pull request ({:,} lines changed).",
+      "gifs": [
+        "grant-sunglasses"
+      ]
+    },
+    {
+      "when": "big_pr",
+      "text": "That's no moon... that's a {:,}-line pull request.",
+      "gifs": [
+        "obi-wan-no-moon"
+      ]
+    },
+    {
+      "when": "stack_bottom",
+      "text": "{} branches in this stack? I'm going on an adventure!",
+      "gifs": [
+        "bilbo-adventure"
+      ]
+    },
+    {
+      "when": "human_commit",
+      "text": "Life, uh, finds a way.",
+      "gifs": [
+        "malcolm-life-finds-a-way"
+      ]
+    }
+  ],
+  "movies": [
+    {
+      "movie_id": "2001",
+      "title": "2001: A Space Odyssey (1968)",
+      "imdb_id": "0062622",
+      "page_url": "https://movie-screencaps.com/2001-a-space-odyssey-1968-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/196/4k-8-spaceodyssee/full/2001space4k-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 13834,
+      "runtime_sec": 8940,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13893016"
+    },
+    {
+      "movie_id": "anh",
+      "title": "Star Wars: Episode IV - A New Hope (1977)",
+      "imdb_id": "0076759",
+      "page_url": "https://movie-screencaps.com/star-wars-episode-iv-a-new-hope-1977/",
+      "gallery_url_template": "https://caps2.b-cdn.net/197/7-starwars4/full/star-wars4-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 12369,
+      "runtime_sec": 7260,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13303305"
+    },
+    {
+      "movie_id": "anh_4k",
+      "title": "Star Wars: Episode IV - A New Hope (1977) [4K]",
+      "imdb_id": "0076759",
+      "page_url": "https://starwarsscreencaps.com/star-wars-episode-iv-a-new-hope-1977-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/197/4k-swnewhope/full/4k-swnewhope-starwarsscreencaps.com-{}.jpg",
+      "referer": "https://starwarsscreencaps.com/",
+      "max_frame": 21248,
+      "runtime_sec": 7260,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13303305"
+    },
+    {
+      "movie_id": "bb",
+      "title": "Batman Begins (2005)",
+      "imdb_id": "0372784",
+      "page_url": "https://movie-screencaps.com/batman-begins-2005/",
+      "gallery_url_template": "https://caps2.b-cdn.net/200/5-batman-begins/full/batman-begins-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 15621,
+      "runtime_sec": 8400,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13516889"
+    },
+    {
+      "movie_id": "dune1",
+      "title": "Dune: Part One (2021)",
+      "imdb_id": "1160419",
+      "page_url": "https://movie-screencaps.com/dune-2021-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/202/4k-1-dune/full/4kdune-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 15429,
+      "runtime_sec": 9300,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13779705"
+    },
+    {
+      "movie_id": "dune2",
+      "title": "Dune: Part Two (2024)",
+      "imdb_id": "15239678",
+      "page_url": "https://movie-screencaps.com/dune-part-two-2024-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/202/4-dune-part-two-4k/full/dune-part-two-4k-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 23457,
+      "runtime_sec": 9960,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13893345"
+    },
+    {
+      "movie_id": "esb",
+      "title": "Star Wars: Episode V - The Empire Strikes Back (1980)",
+      "imdb_id": "0080684",
+      "page_url": "https://movie-screencaps.com/star-wars-episode-v-the-empire-strikes-back-1980/",
+      "gallery_url_template": "https://caps2.b-cdn.net/198/0-starwars5/full/star-wars5-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 14392,
+      "runtime_sec": 7440,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/14009455"
+    },
+    {
+      "movie_id": "fotr",
+      "title": "The Lord of the Rings: The Fellowship of the Ring (2001)",
+      "imdb_id": "0120737",
+      "page_url": "https://movie-screencaps.com/the-lord-of-the-rings-the-fellowship-of-the-ring-2001-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/200/4k-fellowship/full/4k-fellowship-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 31131,
+      "runtime_sec": 12480,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/14126281"
+    },
+    {
+      "movie_id": "godfather",
+      "title": "The Godfather (1972)",
+      "imdb_id": "0068646",
+      "page_url": "https://movie-screencaps.com/the-godfather-1972/",
+      "gallery_url_template": "https://caps2.b-cdn.net/197/2-godfather/full/godfather-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 20610,
+      "runtime_sec": 10500,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/14077247"
+    },
+    {
+      "movie_id": "hobbit1",
+      "title": "The Hobbit: An Unexpected Journey (2012)",
+      "imdb_id": "0903624",
+      "page_url": "https://movie-screencaps.com/the-hobbit-an-unexpected-journey-2012-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/201/2-the-hobbit-an-unexpected-journey-4k/full/the-hobbit-an-unexpected-journey-4k-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 25661,
+      "runtime_sec": 10920,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/14126237"
+    },
+    {
+      "movie_id": "inception",
+      "title": "Inception (2010)",
+      "imdb_id": "1375666",
+      "page_url": "https://movie-screencaps.com/inception-2010-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/201/4k-0-inception/full/inception4k-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 15248,
+      "runtime_sec": 8880,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13893569"
+    },
+    {
+      "movie_id": "jaws",
+      "title": "Jaws (1975)",
+      "imdb_id": "0073195",
+      "page_url": "https://movie-screencaps.com/jaws-1975/",
+      "gallery_url_template": "https://caps2.b-cdn.net/197/5-jaws/full/jaws-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 14566,
+      "runtime_sec": 7717,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13790160"
+    },
+    {
+      "movie_id": "jp",
+      "title": "Jurassic Park (1993)",
+      "imdb_id": "0107290",
+      "page_url": "https://movie-screencaps.com/jurassic-park-1993/",
+      "gallery_url_template": "https://caps2.b-cdn.net/199/3-jurassic-park/full/jurassic-park-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 14292,
+      "runtime_sec": 7620,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13893605"
+    },
+    {
+      "movie_id": "matrix",
+      "title": "The Matrix (1999)",
+      "imdb_id": "0133093",
+      "page_url": "https://movie-screencaps.com/the-matrix-1999-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/199/4k-9-matrix/full/matrix4k-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 13403,
+      "runtime_sec": 8160,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13878916"
+    },
+    {
+      "movie_id": "matrix3",
+      "title": "The Matrix Revolutions (2003)",
+      "imdb_id": "0242653",
+      "page_url": "https://movie-screencaps.com/the-matrix-revolutions-2003-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/200/4k-3-matrixrevolutions/full/matrixrevolutions4k-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 13260,
+      "runtime_sec": 7740,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13894452"
+    },
+    {
+      "movie_id": "pulpfiction",
+      "title": "Pulp Fiction (1994)",
+      "imdb_id": "0110912",
+      "page_url": "https://movie-screencaps.com/pulp-fiction-1994/",
+      "gallery_url_template": "https://caps2.b-cdn.net/199/4-pulp-fiction/full/pulp-fiction-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 17918,
+      "runtime_sec": 9303,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/14120703"
+    },
+    {
+      "movie_id": "rotk",
+      "title": "The Lord of the Rings: The Return of the King (2003)",
+      "imdb_id": "0167260",
+      "page_url": "https://movie-screencaps.com/the-lord-of-the-rings-the-return-of-the-king-2003-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/200/4k-returnking/full/4k-returnofking-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 34423,
+      "runtime_sec": 15060,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/14126272"
+    },
+    {
+      "movie_id": "rots",
+      "title": "Star Wars: Episode III - Revenge of the Sith (2005)",
+      "imdb_id": "0121766",
+      "page_url": "https://starwarsscreencaps.com/star-wars-episode-iii-revenge-of-the-sith-2005-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/200/4k-5-revengesith/full/revengesith-4k-starwarsscreencaps.com-{}.jpg",
+      "referer": "https://starwarsscreencaps.com/",
+      "max_frame": 14682,
+      "runtime_sec": 8400,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/14042223"
+    },
+    {
+      "movie_id": "tdk",
+      "title": "The Dark Knight (2008)",
+      "imdb_id": "0468569",
+      "page_url": "https://movie-screencaps.com/the-dark-knight-2008/",
+      "gallery_url_template": "https://caps2.b-cdn.net/200/8-dark-knight/full/darkknight-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 17210,
+      "runtime_sec": 9120,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13404902"
+    },
+    {
+      "movie_id": "tfa",
+      "title": "Star Wars: Episode VII - The Force Awakens (2015)",
+      "imdb_id": "2488496",
+      "page_url": "https://starwarsscreencaps.com/star-wars-episode-vii-the-force-awakens-2015-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/201/4k-swforce/full/4k-swforceawakens-starwarsscreencaps.com-{}.jpg",
+      "referer": "https://starwarsscreencaps.com/",
+      "max_frame": 22587,
+      "runtime_sec": 8280,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/12300592"
+    },
+    {
+      "movie_id": "titanic",
+      "title": "Titanic (1997)",
+      "imdb_id": "0120338",
+      "page_url": "https://movie-screencaps.com/titanic-1997/",
+      "gallery_url_template": "https://caps2.b-cdn.net/199/7-titanic/full/titanic-movie-screencaps.com-{}.jpg",
+      "referer": "https://movie-screencaps.com/",
+      "max_frame": 22352,
+      "runtime_sec": 11335,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/13338296"
+    },
+    {
+      "movie_id": "tpm",
+      "title": "Star Wars: Episode I - The Phantom Menace (1999)",
+      "imdb_id": "0120915",
+      "page_url": "https://starwarsscreencaps.com/star-wars-episode-i-the-phantom-menace-1999-4k/",
+      "gallery_url_template": "https://caps2.b-cdn.net/199/4k-swphantom/full/4k-swphantom-starwarsscreencaps.com-{}.jpg",
+      "referer": "https://starwarsscreencaps.com/",
+      "max_frame": 23124,
+      "runtime_sec": 8160,
+      "subtitle_url": "https://dl.opensubtitles.org/en/download/sub/14041743"
+    }
+  ]
+}

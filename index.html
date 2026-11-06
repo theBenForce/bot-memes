@@ -350,16 +350,20 @@
     function renderDynamic(bg, text) {
       const container = document.getElementById('dynamic-preview');
       const imgUrl = `images/backgrounds/${encodeURIComponent(bg)}.jpg`;
+      const W = 814, H = 346, scale = W / 960;
       const lines = wrapBalanced(text, 26);
       const maxLen = Math.max(1, ...lines.map(l => l.length));
-      const boxW = Math.round(960 * 0.86), boxH = Math.round(408 * 0.26), boxY = 408 - 22 - boxH;
-      const fontSize = Math.round(Math.max(24, Math.min(62, boxW / (maxLen * 0.55), boxH / (lines.length * 1.18))));
-      const lineH = Math.round(fontSize * 1.18), strokeW = Math.max(6, Math.round(fontSize * 0.19));
+      const padBottom = Math.max(12, Math.round(22 * scale));
+      const boxW = Math.round(W * 0.86), boxH = Math.round(H * 0.26), boxY = H - padBottom - boxH;
+      const minFont = Math.max(16, Math.round(24 * scale)), maxFont = Math.round(62 * scale);
+      const fontSize = Math.round(Math.max(minFont, Math.min(maxFont, boxW / (maxLen * 0.55), boxH / (lines.length * 1.18))));
+      const lineH = Math.round(fontSize * 1.18), strokeW = Math.max(5, Math.round(fontSize * 0.19));
       const totalH = lineH * lines.length;
-      const baseBottom = boxY + boxH - Math.max(6, Math.floor((boxH - totalH) / 3));
+      const scrimH = Math.max(Math.round(140 * scale), totalH + Math.round(64 * scale)), scrimY = Math.max(0, H - scrimH);
+      const baseBottom = boxY + boxH - Math.max(5, Math.floor((boxH - totalH) / 3));
       const startY = baseBottom - (lines.length - 1) * lineH;
-      const textsSvg = lines.map((l, idx) => `<text x="480" y="${startY + idx * lineH}" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="${fontSize}" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="${strokeW}" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">${esc(l)}</text>`).join('\n        ');
-      const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 408" width="960" height="408">
+      const textsSvg = lines.map((l, idx) => `<text x="${Math.floor(W / 2)}" y="${startY + idx * lineH}" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="${fontSize}" font-style="italic" font-weight="800" fill="#ffd60a" stroke="#000000" stroke-width="${strokeW}" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0.5">${esc(l)}</text>`).join('\n        ');
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">
         <defs>
           <linearGradient id="dyn-scrim" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="#000" stop-opacity="0"/>
@@ -367,8 +371,8 @@
             <stop offset="100%" stop-color="#000" stop-opacity="0.88"/>
           </linearGradient>
         </defs>
-        <image href="${imgUrl}" x="0" y="0" width="960" height="408" preserveAspectRatio="xMidYMid slice"/>
-        <rect x="0" y="250" width="960" height="158" fill="url(#dyn-scrim)"/>
+        <image href="${imgUrl}" x="0" y="0" width="${W}" height="${H}" preserveAspectRatio="xMidYMid slice"/>
+        <rect x="0" y="${scrimY}" width="${W}" height="${scrimH}" fill="url(#dyn-scrim)"/>
         ${textsSvg}
       </svg>`;
       container.innerHTML = svg;
